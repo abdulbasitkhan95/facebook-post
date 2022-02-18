@@ -1,0 +1,294 @@
+
+body {
+  background: #e4e4e4;
+  font-family: sans-serif;
+  transition: all ease .5s;
+}
+#main_canvas {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px #d6d6d6;
+  overflow: hidden;
+  transition: all ease .5s;
+}
+#top_header {
+  padding: 5px;
+  width: 98%;
+  height: 50px;
+  text-align: left;
+  font-family: sans-serif;
+}
+#header_image {
+  background: url(https://scontent.fdac92-1.fna.fbcdn.net/v/t1.0-9/109384863_1158077334565128_7211399387071947791_o.jpg?_nc_cat=108&_nc_sid=09cbfe&_nc_ohc=SJl3k_0NylYAX-AwYft&_nc_ht=scontent.fdac92-1.fna&oh=5081484286f81d82cc4eff94db23c8a2&oe=5F8A616E);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  text-decoration: none;
+  font-weight: bold;
+  color: #365899;
+  font-size: 17px;
+}
+.name_2 {
+  color: #616770;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 14px;
+}
+.name_3 {
+  text-decoration: none;
+  font-weight: bold;
+  color: #365899;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+#menu {
+  background: url(https://cdn1.iconfinder.com/data/icons/web-and-user-interface-21/512/32-512.png);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  float: right;
+  transform: translate(0px, -35px);
+  cursor: pointer;
+}
+#text_area {
+  background: transparent;
+  transform: translate(0 ,-10px);
+}
+#text_box {
+  text-align: left;
+  width: 95%;
+  height: 50px;
+  resize: none;
+  color: black;
+  font-size: 15px;
+  overflow: hidden;
+  font-family: inherit;
+  border: none;
+  margin: 2px;
+}
+#images {
+  height: 380px;
+  text-align: left;
+  cursor: pointer;
+}
+#images > div:nth-child(1) {
+  background-size: cover;
+  height: 320px;
+  transition: all ease .5s;
+}
+#images > div:nth-child(2) {
+  background: url(https://lh3.googleusercontent.com/-vRwLPZTKijQ/W7H6lp14Y2I/AAAAAAAABMo/Ri0N95GapAci6qlnRvz9-K3IlQaxl5JowCLcBGAs/h120/coolpirates_preview2.png);
+  background-size: cover;
+  height: 180px;
+  width: 49%;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition: all ease .5s;
+}
+#images > div:nth-child(3) {
+  background: url(https://lh3.googleusercontent.com/-oJzgSXTgRd4/W7H6maGpIhI/AAAAAAAABMw/qo4SUG9B1YUB7RBmD75ICA-toVeRzak6QCLcBGAs/h120/coolpirates_preview4.png);
+  background-size: cover;
+  height: 180px;
+  width: 50%;
+  float: right;
+  border-top: 2px solid white;
+  transition: all ease .5s;
+  /*border-left: 2px solid white;*/
+}
+#images > div:nth-child(2), #images > div:nth-child(3) {
+  display: inline-block;
+}
+#likes {
+  margin-top: 10px;
+  height: 20px;
+  text-align: left;
+}
+#likes > div:nth-child(1) {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Facebook_Like_button.svg/2000px-Facebook_Like_button.svg.png);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+#likes > div:nth-child(2)  {
+  transform: translate(0,-5px);
+}
+#likes > div:nth-child(3)  {
+  transform: translate(0, 3px);
+  float: right;
+  margin-right: 8px;
+  font-family: sans-serif;
+}
+#likes > div:nth-child(1), #likes > div:nth-child(2), #likes > div:nth-child(3) {
+  display: inline-block;
+}
+#btns {
+  text-align: center;
+  border-top: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+}
+#btns > div {
+  display: inline-block;
+  width: 30%;
+  height: 35px;
+  border-radius:5px;
+  margin-left: 10px;
+  transition: all ease .5s;
+  cursor: pointer;
+  font-size:  18px;
+  font-family: sans-serif;
+  color: #616770;
+  vertical-align: middle;
+  line-height: 35px;
+}
+#btns > div:hover {
+  background: #f2f2f3;
+}
+#comment {
+  height: 50px;
+  padding: 10px;
+  text-align: left;
+}
+#comment > div:nth-child(1) {
+  background: url(https://pbs.twimg.com/profile_images/814015666365689857/V8I3LJax_400x400.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+#comment > div:nth-child(2) {
+  margin-left: 10px;
+  transform: translate(0, -11px);
+  background: #eff1f3;
+  padding: 9px;
+  border-radius: 18px;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+#comment > div:nth-child(1), #comment > div:nth-child(2) {
+  display: inline-block;
+}
+#comment_box > div:nth-child(1), #comment_box > div:nth-child(2) {
+  display: inline-block;
+}
+#comment > div:nth-child(3) {
+  height: auto;
+  transform: translate(0, -10px);
+  font-size: 14px;
+  color: #365899;
+}
+#comment > div:nth-child(3) > span {
+  margin-left: 10px;
+}
+#comment > div:nth-child(3) > span:nth-child(1) {
+  margin-left: 60px;
+}
+#comment_box {
+  text-align: left;
+  padding: 10px;
+}
+#comment_box > div:nth-child(1) {
+  background: url(https://scontent.fdac15-1.fna.fbcdn.net/v/t1.0-1/p160x160/36487623_622734241432776_6695538287123103744_n.jpg?_nc_cat=101&oh=b9f28416860dbf8d50a3e48583709516&oe=5C2B0FE9);
+  background-size: cover;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+
+@media screen and (max-width: 800px) {
+  #images {
+    height: 440px;
+  }
+  #images > div:nth-child(1) {
+    height: 280px;
+  }
+  #images > div:nth-child(2) {
+    height: 150px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+  }
+  #images > div:nth-child(3) {
+    height: 150px;
+  }
+  #comment_box > div:nth-child(2) {
+    height: 20px;
+    width: 89%;
+  }
+  #main_canvas {
+    height: 800px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #images {
+    height: 310px;
+  }
+  #images > div:nth-child(1) {
+    height: 200px;
+  }
+  #images > div:nth-child(2) {
+    height: 100px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+  }
+  #images > div:nth-child(3) {
+    height: 100px;
+  }
+  #comment_box > div:nth-child(2) {
+    height: 20px;
+    width: 89%;
+  }
+  #main_canvas {
+    height: 650px;
+    width: 70%;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .name_2 {
+    font-size: 12px;
+  }
+  .name_3 {
+    font-size: 11px;
+  }
+  #btns > div {
+    font-size: 12px;
+  }
+  #comment > div:nth-child(1) {
+    width: 30px;
+    height: 30px;
+  }
+  #comment > div:nth-child(2) {
+    font-size: 12px;
+  }
+  #comment > div:nth-child(3) {
+    font-size: 11px;
+  }
+  #comment_box > div:nth-child(1) {
+    height: 30px;
+    width: 30px;
+  }
+  #comment_box > div:nth-child(2) {
+    height: 15px;
+    width: 87%;
+  }
+
+}
+
+
+
+
+
+.App {
+  max-width: 570px;
+  margin: auto;
+}
